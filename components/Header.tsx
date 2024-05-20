@@ -24,14 +24,14 @@ export default function Header() {
 			<div className='page-header__phones-row'>
 				<div className='container page-header__phones-container'>
 					<div className='page-header__phones'>
-						<a href={'tel:+1(123)1234567'} className='page-header__phone-link'>
-							<FontAwesomeIcon icon={faPhoneAlt} /> +1 (123) 123-45-67
+						<a href={'tel:+180015698121'} className='page-header__phone-link'>
+							<FontAwesomeIcon icon={faPhoneAlt} /> +1 (800) 156-981-21
 						</a>
-						<a href={'https://api.whatsapp.com/send?phone=11231234567&text=Hello!'}
+						<a href={'https://api.whatsapp.com/send?phone=180015698121&text=Hello!'}
 							 className='page-header__phone-link'
 							 target={'_blank'}
 						>
-							<FontAwesomeIcon icon={faWhatsapp} /> +1 (123) 123-45-67
+							<FontAwesomeIcon icon={faWhatsapp} /> +1 (800) 156-981-21
 						</a>
 					</div>
 					<ul className='page-header__menu list-unstyled'>

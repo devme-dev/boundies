@@ -1,0 +1,133 @@
+.contactInformation {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInformation .emailField {
+    margin-bottom: 20px;
+    margin-top: 2em;
+}
+
+.contactInformation .emailField > div{
+    width: 100%;
+}
+
+.contactInformation .MuiFormControlLabelRoot {
+    margin-bottom: 20px;
+}
+
+.contactInformation .MuiButtonRoot {
+    width: 100%;
+}
+
+.contactButton{
+    width: fit-content;
+    margin-left: auto;
+    margin-top: 1em;
+}
+
+.shippingOptions{
+    display: flex;
+    flex-direction: column;
+}
+
+.shippingOptions{
+    margin-top: 1em;
+}
+
+.PayDetails {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(218 255 255);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 24em;
+    max-width: 85%;
+    gap: 0.5em;
+    z-index: 999;
+}
+
+.cancel{
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    cursor: pointer;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    line-height: 1;
+}
+
+
+.PayDetails > h5{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 0.5px solid black;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    gap: 1em;
+}
+
+.row > div{
+    width: 100%;
+}
+
+.number >div{
+    width: 100%;
+}
+
+.secured{
+width: 100%;
+height: auto;
+margin-top: 0.5em;
+}
+
+.hidden_iframe{
+    display: none;
+}
+
+.infoForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.shipForm{
+    background-color: #d9d9d9;
+    padding: 1em;
+    border-radius: 0.5rem;
+}
+
+.muiStyleSelect {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5"><path fill="%23aaa" d="M0 0h10L5 5z"/></svg>'); /* Add custom arrow */
+    background-repeat: no-repeat;
+    background-position: right 0.5em top 50%, 0 0; /* Position the arrow */
+    background-size: 1.25em auto, 100%; /* Size the arrow */
+  }
+
+  .notess{
+    display: none;
+  }

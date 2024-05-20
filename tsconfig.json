@@ -39,7 +39,7 @@
     "./**/*.ts",
     "./**/*.tsx",
 		".next/types/**/*.ts"
-  ],
+, "pages/checkout/contact.jsx", "pages/checkout/[[...slug]].jsx"  ],
   "exclude": [
     "node_modules"
   ]

@@ -115,7 +115,7 @@ export default function CartItems({items, setItems, total}: ICartItemsProps) {
 				<button
 					className='btn btn-action btn-lg btn-anim'
 					disabled={submitting}
-					onClick={() => router.push('/checkout')}
+					onClick={() => router.push('/checkout/info')}
 				>
 					Proceed to checkout <FontAwesomeIcon icon={faShoppingCart} />
 				</button>
