@@ -43,9 +43,8 @@
 .PayDetails {
     display: flex;
     flex-direction: column;
-    background-color: rgb(218 255 255);
-    border-radius: 10px;
-    padding: 20px;
+    background-color: rgb(247 247 247);
+    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     position: fixed;
     top: 50%;
@@ -53,9 +52,14 @@
     transform: translate(-50%, -50%);
     width: 24em;
     max-width: 85%;
-    gap: 0.5em;
     z-index: 999;
+    border: 0.5px solid #c8c8c8;
 }
+
+.PayDetailsMain{
+    padding: 0 20px 20px;
+}
+
 
 .cancel{
     position: absolute;
@@ -67,13 +71,17 @@
     height: 1em;
     width: 1em;
     line-height: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
 }
 
 
 .PayDetails > h5{
-    text-align: center;
-    font-weight: bold;
-    border-bottom: 0.5px solid black;
+    font-size: 1em;
+    border: 0.5px solid #7f7f7f;
+    border-radius: 4px 4px 0 0;
+    padding: 0.6em 1em;
 }
 
 .row{

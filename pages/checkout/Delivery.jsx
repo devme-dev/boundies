@@ -585,24 +585,24 @@ const Delivery = ({ router, setReferal }) => {
                     />
                     {billingAddressSameAsShipping === false && (
                         <div className={styles.shipForm}>
-                        <p>Shipping Address</p>
+                        <p>Billing Address</p>
                         <div className={styles.infoForm}>
                           <div className={styles.row}>
                             <TextField label="First name" name="firstName" value={formData2.firstName} onChange={handleChanges2} />
-                            <TextField label="Last name" name="lastName" value={formData2.lastName} onChange={handleChanges2} required />
+                            <TextField label="Last name" name="lastName" value={formData2.lastName} onChange={handleChanges2} />
                           </div>
                           <TextField label="Company" name="company" value={formData2.company} onChange={handleChanges2} />
-                          <TextField label="Address" name="address" value={formData2.address} onChange={handleChanges2} required />
+                          <TextField label="Address" name="address" value={formData2.address} onChange={handleChanges2} />
                           <div className={styles.row}>
                             <TextField
                               label="ZIP code"
                               name="zipCode"
                               value={formData2.zipCode}
                               onChange={handleChanges2}
-                              required
+                              
                               inputProps={{ type: 'number' }}
                             />
-                            <TextField label="City" name="city" value={formData2.city} onChange={handleChanges2} required />
+                            <TextField label="City" name="city" value={formData2.city} onChange={handleChanges2} />
                           </div>
                           <div className={styles.row}>
                             <TextField label="State" name="state" value={formData2.state} onChange={handleChanges2} />
