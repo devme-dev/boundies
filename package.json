@@ -24,7 +24,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "node server.js",
-    "lint": "npx eslint --ext .ts --ext .tsx . && npx stylelint ./styles"
+    "lint": "npx eslint --ext .ts --ext .tsx . && npx stylelint ./styles",
+    "heroku-postbuild": "npm install --force"
   },
   "dependencies": {
     "@fontsource/roboto": "^4.5.3",
