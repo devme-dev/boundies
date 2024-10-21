@@ -21,12 +21,12 @@
   "author": "Kirill Zhirnov <ekvixgroup@gmail.com>",
   "license": "MIT",
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "node server.js",
-  "lint": "npx eslint --ext .ts --ext .tsx . && npx stylelint ./styles",
-  "heroku-postbuild": "npm install --force && npm run build"
-},
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node server.js",
+    "lint": "npx eslint --ext .ts --ext .tsx . && npx stylelint ./styles",
+    "heroku-postbuild": "npm install --legacy-peer-deps && npm run build"
+  },
   "dependencies": {
     "@fontsource/roboto": "^4.5.3",
     "@fortawesome/fontawesome-free": "^5.15.4",
