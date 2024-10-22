@@ -10,7 +10,20 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { createGetStr } from 'boundless-api-client/utils';
 import styles from './checkout.module.css';
 import ReactDOM from 'react-dom';
-import { Button, Checkbox, FormControlLabel, TextField, Typography, Snackbar, Radio, Select, MenuItem, InputLabel, makeStyles } from '@material-ui/core';
+// import { Button, Checkbox, FormControlLabel, TextField, Typography, Snackbar, Radio, Select, MenuItem, InputLabel, makeStyles } from '@material-ui/core';
+import {
+    Button,
+    Checkbox,
+    FormControlLabel,
+    TextField,
+    Typography,
+    Snackbar,
+    Radio,
+    Select,
+    MenuItem,
+    InputLabel,
+} from '@mui/material';
+import { makeStyles } from '@mui/styles'; 
 import MuiAlert from '@material-ui/lab/Alert';
 import stp from '../../public/stripe.png';
 import Image from 'next/image';
