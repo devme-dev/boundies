@@ -1,7 +1,5 @@
 // import { Button, Checkbox, FormControlLabel, TextField, Typography, Snackbar, Radio, Select, MenuItem, InputLabel } from '@material-ui/core';
 import { Button, Checkbox, FormControlLabel, TextField, Typography, Snackbar, Radio, Select, MenuItem, InputLabel } from '@mui/material';
-import { makeStyles } from '@mui/styles'; 
-import MuiAlert from '@material-ui/lab/Alert';
 import styles from './checkout.module.css';
 import { useEffect, useState } from 'react';
 

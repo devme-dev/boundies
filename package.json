@@ -37,7 +37,9 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.16",
     "@mui/icons-material": "^6.1.4",
+    "@mui/lab": "^6.0.0-beta.17",
     "@mui/material": "^6.1.4",
+    "@mui/styles": "^6.1.9",
     "@popperjs/core": "^2.11.2",
     "@reduxjs/toolkit": "^1.7.1",
     "@types/js-cookie": "^3.0.1",
@@ -72,14 +74,13 @@
     "sharp": "^0.32.5",
     "sweetalert": "^2.1.2",
     "swiper": "8",
-    "typescript": "^4.5.4",
     "xmlbuilder": "^15.1.1"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^12.0.10",
     "@types/body-scroll-lock": "^3.1.0",
     "@types/lodash": "^4.14.178",
-    "@types/node": "^18",
+    "@types/node": "^18.19.67",
     "@types/qs": "^6.9.7",
     "@types/react": "^17.0.83",
     "@types/react-dom": "^18.2.7",
@@ -92,7 +93,8 @@
     "stylelint": "^14.2.0",
     "stylelint-config-sass-guidelines": "^9.0.1",
     "stylelint-config-standard": "^24.0.0",
-    "ts-node": "^10.4.0"
+    "ts-node": "^10.4.0",
+    "typescript": "^5.7.2"
   },
   "engines": {
     "node": ">=18.12.0"

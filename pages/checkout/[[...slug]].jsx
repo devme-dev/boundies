@@ -24,7 +24,8 @@ import {
     InputLabel,
 } from '@mui/material';
 import { makeStyles } from '@mui/styles'; 
-import MuiAlert from '@material-ui/lab/Alert';
+// import MuiAlert from '@material-ui/lab/Alert';
+import MuiAlert from '@mui/lab/Alert';
 import stp from '../../public/stripe.png';
 import Image from 'next/image';
 import swal from 'sweetalert';
