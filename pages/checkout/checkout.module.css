@@ -50,14 +50,17 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 24em;
+    width: 30em;
     max-width: 85%;
     z-index: 999;
     border: 0.5px solid #c8c8c8;
 }
 
 .PayDetailsMain{
-    padding: 0 20px 20px;
+    padding: 20px;
+    display: flex;
+    gap: 0.5em;
+    flex-direction: column;
 }
 
 
@@ -126,7 +129,6 @@ margin-top: 0.5em;
     border-radius: 4px;
     width: 100%;
     background-color: transparent;
-    border: none;
     border-bottom: 1px solid;
     outline: none;
     appearance: none;

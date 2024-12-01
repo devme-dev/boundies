@@ -1,4 +1,4 @@
-// import { Button, Checkbox, FormControlLabel, TextField, Typography, Snackbar, Radio, Select, MenuItem, InputLabel } from '@material-ui/core';
+
 import { Button, Checkbox, FormControlLabel, TextField, Typography, Snackbar, Radio, Select, MenuItem, InputLabel } from '@mui/material';
 import styles from './checkout.module.css';
 import { useEffect, useState } from 'react';
@@ -544,8 +544,8 @@ const Delivery = ({ router, setReferal }) => {
           <TextField label="First name" name="firstName" value={formData.firstName} onChange={handleChanges} />
           <TextField label="Last name" name="lastName" value={formData.lastName} onChange={handleChanges} required />
         </div>
-        <TextField label="Company" name="company" value={formData.company} onChange={handleChanges} />
-        <TextField label="Address" name="address" value={formData.address} onChange={handleChanges} required />
+        <TextField label="Company" name="company" value={formData.company} onChange={handleChanges} style={{ marginBottom: '1em' }} />
+        <TextField label="Address" name="address" value={formData.address} onChange={handleChanges} required style={{ marginBottom: '1em' }} />
         <div className={styles.row}>
           <TextField
             label="ZIP code"
@@ -591,8 +591,8 @@ const Delivery = ({ router, setReferal }) => {
                             <TextField label="First name" name="firstName" value={formData2.firstName} onChange={handleChanges2} />
                             <TextField label="Last name" name="lastName" value={formData2.lastName} onChange={handleChanges2} />
                           </div>
-                          <TextField label="Company" name="company" value={formData2.company} onChange={handleChanges2} />
-                          <TextField label="Address" name="address" value={formData2.address} onChange={handleChanges2} />
+                          <TextField label="Company" name="company" value={formData2.company} onChange={handleChanges2} style={{ marginBottom: '1em' }} />
+                          <TextField label="Address" name="address" value={formData2.address} onChange={handleChanges2} style={{ marginBottom: '1em' }} />
                           <div className={styles.row}>
                             <TextField
                               label="ZIP code"
