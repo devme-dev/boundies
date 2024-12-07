@@ -116,8 +116,9 @@ export default function CheckoutPage() {
 			department: '',
 			level: '',
 			other: '',
-			referralCode: '',
+			referralCode: referal,
 		});
+
 
 		const idNameMapping = {
 			"entry.1614419459": "name",
@@ -188,7 +189,6 @@ export default function CheckoutPage() {
 
 		const submit = (event) => {
 			event.preventDefault();
-			console.log("submitting");
 			if (form.name && form.phoneNumber && form.other && form.level) {
 
 				// setDisabled(true);
@@ -326,6 +326,20 @@ export default function CheckoutPage() {
 												  }}
 												onChange={handleInputChange} inputProps={{ maxLength: 3 }} />
 										</div>
+										<div className={styles.reff}>
+											<TextField label="Ref" name="entry.8372483"
+												id="ref"
+												value={form.referralCode}
+												InputLabelProps={{
+													classes: {
+														root: classes.inputLabel,
+													},
+												}}
+												  onInput={(e) => {
+													e.target.value = e.target.value.replace(/\D/g, ''); 
+												  }}
+												onChange={handleInputChange} />
+										</div>
 
 									</div>
 									<div className={styles.contactButton}>
@@ -350,10 +364,8 @@ export default function CheckoutPage() {
 				buttons.forEach(button => {
 					button.setAttribute('disabled', 'true');
 				});
-				console.log("Found the buttons");
 				clearInterval(intervalId);
 			} else {
-				console.log("Didn't find the buttons");
 			}
 		}, 100);
 
@@ -469,7 +481,6 @@ export default function CheckoutPage() {
 			<Head>
 				<meta name='robots' content='noindex' />
 			</Head>
-			{console.log("Slugggggg", checkoutRef)}
 			<div>
 				<div ref={checkoutRef}></div>
 			</div>
